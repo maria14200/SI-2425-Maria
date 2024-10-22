@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Multimédia</title>
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" type="text/css"  href="estilos.css" />
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
     <nav>
         <ul class="menu">
@@ -24,5 +24,43 @@
     <h1>Curso de Multimédia</h1>
     <h1>O Futuro da Comunicação Digital</h1>
     <img src="img/img2.jpg" alt="Flowers in Chania" width="460" height="345">
+
+    <header>: 
+        |<div clas="banner"> 
+            <h2>Seja Bem-Vindo </h2> 
+            <p>Neste site aprende um pouco sobre o Curso  de Multimédia.</p> 
+            </div> 
+            |<section id="secao1"> 
+                <h2>Título da Seção 1</h2> 
+                <p>Parágrafo 1 da Seção 1.</p> 
+                <ul> 
+                <li>Marcador 1</li> 
+                <li>Marcador 2</li> 
+                <li>Marcador 3</li> 
+                </ul> 
+                <p>Parágrafo 2 da Seção 1.</p> 
+                <p>Parágrafo 3 da Seção 1.</p> 
+                <img src="img/img4.jpeg" alt="Curso Multimédia"> 
+                <figcaption>Curso de Multimédia</figcaption> 
+                </section> 
+        
+                <script> 
+                    document.getElementById('form-enviar').addEventListener('submit', function(event) { 
+                    }); 
+                    event.preventDefault(); 
+                    alert('Ficheiro enviado com sucesso!'); 
+                    </script>         
+   
+    |<section id="secao2"> 
+        <h2>Título da Seção 2</h2> 
+        <p>Parágrafo 1 da Seção 4.</p> 
+        <form id="form-enviar" enctype="multipart/form-data"> 
+        <label for="ficheiro">Escolha um ficheiro para enviar:</label> 
+        <input type="file" id="ficheiro" name="ficheiro" required> 
+        <input type="submit" value="Enviar"> 
+        </form> 
+        </section> 
+        
+       
 </body>
 </html>
